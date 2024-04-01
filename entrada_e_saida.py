@@ -25,3 +25,10 @@ def divisao_por_dois():
     print('A divisão do número', n1, 'por dois é: ', divisao)
 
 divisao_por_dois()    
+
+def imc():
+    altura = float(input('Digite sua altura: '))
+    peso = float(input('Agora informe o seu peso: '))
+    resul_imc = peso / (altura*altura)
+    print('O seu IMC é: ', resul_imc)
+imc()
