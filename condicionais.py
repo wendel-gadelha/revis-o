@@ -14,3 +14,14 @@ def par_ou_impar():
     else:
         print('O número informado é ímpar')
 par_ou_impar()
+
+def media():
+    nota1 = float(input('Digite a primeira nota: '))
+    nota2 = float(input('Digite a segunda nota: '))
+    resu_media = (nota1 + nota2) / 2
+    if(resu_media >=7):
+        print('Parabéns! Você foi aprovado!')
+    else:
+        print('Você está em recuperação.')
+
+media()
